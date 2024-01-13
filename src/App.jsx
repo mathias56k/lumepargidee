@@ -1,9 +1,11 @@
+import Navbar from "./Navbar"
 
 function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center mt-8 gap-8">
+    <Navbar />
+      <div className="flex flex-col items-center mt-8 gap-8 max-w-[31.25rem]">
         <div className="w-[90%] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
           <div className="w-full bg-[#134a91] h-[20%] rounded-t-xl flex justify-center items-center">
             <p className="font-extrabold text-xl text-[#98b9e5]">AVATUD</p>
