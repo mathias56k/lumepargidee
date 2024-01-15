@@ -1,12 +1,11 @@
 import Navbar from "./Navbar"
 
 function App() {
-
   return (
     <>
     <Navbar />
-      <div className="flex flex-col items-center mt-8 gap-8 max-w-[31.25rem]">
-        <div className="w-[90%] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
+      <div className="flex justify-center mt-8 gap-8 w-full flex-wrap">
+        <div className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
           <div className="w-full bg-[#134a91] h-[20%] rounded-t-xl flex justify-center items-center">
             <p className="font-extrabold text-xl text-[#98b9e5]">AVATUD</p>
           </div>
@@ -27,7 +26,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
+        <div className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
           <div className="w-full bg-[#134a91] h-[20%] rounded-t-xl flex justify-center items-center">
             <p className="font-extrabold text-xl text-[#98b9e5]">AVATAKSE 10:00</p>
           </div>
@@ -48,7 +47,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
+        <div className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col justify-between">
           <div className="w-full bg-[#134a91] h-[20%] rounded-t-xl flex justify-center items-center">
             <p className="font-extrabold text-xl text-[#98b9e5]">AVATAKSE 14:00</p>
           </div>

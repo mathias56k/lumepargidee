@@ -1,0 +1,22 @@
+{
+    "kutiorg": {
+      "name": "Kütiorg",
+      "monday": { "open": "null", "close": "null" },
+      "tuesday": { "open": "14:00", "close": "19:00" },
+      "thursday": { "open": "14:00", "close": "19:00" },
+      "wednesday": { "open": "14:00", "close": "19:00" },
+      "friday": { "open": "14:00", "close": "19:00" },
+      "saturday": { "open": "10:00", "close": "19:00" },
+      "sunday": { "open": "10:00", "close": "18:00" }
+    },
+    "munakas": {
+      "name": "Munakas",
+      "monday": { "open": "null", "close": "null" },
+      "tuesday": { "open": "12:00", "close": "20:00" },
+      "thursday": { "open": "12:00", "close": "20:00" },
+      "wednesday": { "open": "12:00", "close": "20:00" },
+      "friday": { "open": "12:00", "close": "22:00" },
+      "saturday": { "open": "10:00", "close": "19:00" },
+      "sunday": { "open": "10:00", "close": "18:00" }
+    }
+  }
