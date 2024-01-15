@@ -18,5 +18,55 @@
       "friday": { "open": "12:00", "close": "22:00" },
       "saturday": { "open": "10:00", "close": "19:00" },
       "sunday": { "open": "10:00", "close": "18:00" }
+    },
+    "kuutsemae": {
+      "name": "Kuutsemäe",
+      "monday": { "open": "11:00", "close": "19:00" },
+      "tuesday": { "open": "11:00", "close": "19:00" },
+      "thursday": { "open": "11:00", "close": "19:00" },
+      "wednesday": { "open": "11:00", "close": "19:00" },
+      "friday": { "open": "11:00", "close": "20:00" },
+      "saturday": { "open": "10:00", "close": "19:00" },
+      "sunday": { "open": "10:00", "close": "18:00" }
+    },
+    "ansomagi": {
+      "name": "Ansomägi",
+      "monday": { "open": "11:00", "close": "19:00" },
+      "tuesday": { "open": "11:00", "close": "19:00" },
+      "thursday": { "open": "11:00", "close": "19:00" },
+      "wednesday": { "open": "11:00", "close": "19:00" },
+      "friday": { "open": "11:00", "close": "19:00" },
+      "saturday": { "open": "11:00", "close": "19:00" },
+      "sunday": { "open": "11:00", "close": "19:00" }
+    },
+    "viljandiLumepark": {
+      "name": "Viljandi Lumepark",
+      "monday": { "open": "11:00", "close": "18:00" },
+      "tuesday": { "open": "11:00", "close": "18:00" },
+      "thursday": { "open": "11:00", "close": "18:00" },
+      "wednesday": { "open": "11:00", "close": "18:00" },
+      "friday": { "open": "11:00", "close": "18:00" },
+      "saturday": { "open": "11:00", "close": "18:00" },
+      "sunday": { "open": "11:00", "close": "18:00" }
+    },
+    "tartu": {
+      "name": "Tartu Lumepark",
+      "monday": { "open": "null", "close": "null" },
+      "tuesday": { "open": "12:00", "close": "20:00" },
+      "thursday": { "open": "12:00", "close": "20:00" },
+      "wednesday": { "open": "12:00", "close": "20:00" },
+      "friday": { "open": "12:00", "close": "20:00" },
+      "saturday": { "open": "10:00", "close": "20:00" },
+      "sunday": { "open": "10:00", "close": "18:00" }
+    },
+    "palukula": {
+      "name": "Paluküla",
+      "monday": { "open": "08:00", "close": "22:00" },
+      "tuesday": { "open": "08:00", "close": "22:00" },
+      "thursday": { "open": "08:00", "close": "22:00" },
+      "wednesday": { "open": "08:00", "close": "22:00" },
+      "friday": { "open": "08:00", "close": "22:00" },
+      "saturday": { "open": "08:00", "close": "22:00" },
+      "sunday": { "open": "08:00", "close": "22:00" }
     }
-  }
+}

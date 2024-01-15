@@ -2,11 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const getEstoniaDay = () => {
   const date = new Date();
-  // Sunday is 0 in JavaScript, but your JSON starts with Monday as 0
   return (date.getDay() + 6) % 7 + 1;
 };
-
-// ... (your existing imports)
 
 const AppTest = () => {
     const [placesData, setPlacesData] = useState(null);
@@ -34,7 +31,6 @@ const AppTest = () => {
       <div>
         {Object.keys(placesData).map((key) => {
           const restaurant = placesData[key];
-          // Replace the following line with the correct logic to get the opening hours for the current day
           const todayOpeningHours = restaurant[Object.keys(restaurant)[currentDay]];
   
           return (
