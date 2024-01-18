@@ -7,7 +7,9 @@
       "wednesday": { "open": "14:00", "close": "19:00" },
       "friday": { "open": "14:00", "close": "19:00" },
       "saturday": { "open": "10:00", "close": "19:00" },
-      "sunday": { "open": "10:00", "close": "18:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": 57.786339820363445, "long": 27.14910412043294 },
+      "_location": "57.786339820363445, 27.14910412043294"
     },
     "munakas": {
       "name": "Munakas",
@@ -17,7 +19,9 @@
       "wednesday": { "open": "12:00", "close": "20:00" },
       "friday": { "open": "12:00", "close": "22:00" },
       "saturday": { "open": "10:00", "close": "19:00" },
-      "sunday": { "open": "10:00", "close": "18:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.04037134438829", "long": "26.50847414074678" },
+      "_location": "58.04037134438829, 26.50847414074678"
     },
     "kuutsemae": {
       "name": "Kuutsemäe",
@@ -27,7 +31,8 @@
       "wednesday": { "open": "11:00", "close": "19:00" },
       "friday": { "open": "11:00", "close": "20:00" },
       "saturday": { "open": "10:00", "close": "19:00" },
-      "sunday": { "open": "10:00", "close": "18:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.02652526089742", "long": "26.322154465300557" }
     },
     "ansomagi": {
       "name": "Ansomägi",
@@ -37,7 +42,8 @@
       "wednesday": { "open": "11:00", "close": "19:00" },
       "friday": { "open": "11:00", "close": "19:00" },
       "saturday": { "open": "11:00", "close": "19:00" },
-      "sunday": { "open": "11:00", "close": "19:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.044269555722586", "long": "26.511342915345104" }
     },
     "viljandiLumepark": {
       "name": "Viljandi Lumepark",
@@ -47,7 +53,8 @@
       "wednesday": { "open": "11:00", "close": "18:00" },
       "friday": { "open": "11:00", "close": "18:00" },
       "saturday": { "open": "11:00", "close": "18:00" },
-      "sunday": { "open": "11:00", "close": "18:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.3537672810806", "long": "25.58750298956399" }
     },
     "tartu": {
       "name": "Tartu Lumepark",
@@ -57,7 +64,8 @@
       "wednesday": { "open": "12:00", "close": "20:00" },
       "friday": { "open": "12:00", "close": "20:00" },
       "saturday": { "open": "10:00", "close": "20:00" },
-      "sunday": { "open": "10:00", "close": "18:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.39401322675886", "long": "26.734946642686133" }
     },
     "palukula": {
       "name": "Paluküla",
@@ -67,6 +75,7 @@
       "wednesday": { "open": "08:00", "close": "22:00" },
       "friday": { "open": "08:00", "close": "22:00" },
       "saturday": { "open": "08:00", "close": "22:00" },
-      "sunday": { "open": "08:00", "close": "22:00" }
+      "sunday": { "open": "10:00", "close": "18:00" },
+      "location": { "lat": "58.91295232234931", "long": "25.02945353171239" }
     }
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import * as geolib from 'geolib';
 
 const getEstoniaDay = () => {
   const date = new Date();
@@ -48,6 +49,15 @@ const AppTest = () => {
           nextOpeningDate.setDate(nextOpeningDate.getDate() + 1);
           nextOpeningDate.setHours(openTime[0], openTime[1], 0, 0);
 
+          const userLocation = { lat: 56.395694768191234, long: 26.754212356075538 };
+
+          const distance = geolib.getPreciseDistance(
+            { latitude: userLocation.lat, longitude: userLocation.long },
+            { latitude: restaurant.location?.lat, longitude: restaurant.location?.long }
+          );
+
+          const distanceKM = Math.ceil(geolib.convertDistance(distance, 'km'))
+
           return (
             <div className="flex justify-center mt-8 gap-8 w-full flex-wrap" key={key}>
               <div className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col" key={key}>
@@ -74,7 +84,7 @@ const AppTest = () => {
                   </div>
                   <div className="w-[25%] h-full flex flex-col items-center">
                     <img className="h-full" src="/location.svg" alt="" />
-                    <p>15 km</p>
+                    <p>{distanceKM} km</p>
                   </div>
                 </div>
               </div>
