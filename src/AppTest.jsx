@@ -95,7 +95,7 @@ const AppTest = () => {
               className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col"
             >
               <div className="w-full bg-[#134a91] h-[25%] rounded-t-xl flex justify-center items-center">
-                <div className="w-full flex justify-center items-center gap-1 mb-2">
+                <div className="w-full flex justify-center items-center gap-1">
                   {isOpenNow ? (
                     <div className="flex flex-col items-center h-full">
                       <p className="font-bold text-[1.5rem] text-[#98b9e5]">
@@ -107,7 +107,7 @@ const AppTest = () => {
                     </div>
                   ) : (
                     <div className="flex flex-col items-center h-full">
-                      <p className="font-bold text-[1.5rem] h-[70%] text-[#CF3438]">
+                      <p className="font-bold text-[1.5rem] text-[#CF3438]">
                         SULETUD
                       </p>
                       <p className="text-[#98b9e5] mt-[-0.25rem]">
@@ -121,20 +121,24 @@ const AppTest = () => {
                   )}
                 </div>
               </div>
-              <div className="mx-3 flex items-center justify-between text-[#0b121b]">
-                <div className="w-[75%]">
-                  <h3 className="text-[2.25rem] font-extrabold">
+              <div className="ml-4 flex items-start text-[#0b121b] h-[60%]">
+                <div className="w-[75%] mt-2">
+                  <h3 className="text-[1.8rem] font-extrabold">
                     {snowpark.name}
                   </h3>
-                  <p className="mt-1 font-medium text-[1.5rem]">
+                  <p className="mt-1 font-medium text-[1.25rem]">
                     Pilet - 22€ / 12€
                   </p>
                   <p className="font-medium text-[1.5rem]"></p>
                 </div>
-                <div className="w-[25%] h-full flex flex-col items-center">
+                <div className="w-[25%] h-full flex flex-col justify-center items-center">
                   <img className="h-[5rem]" src="/location.svg" alt="" />
                   <p>{distanceKM} km</p>
                 </div>
+              </div>
+              <div className="w-full flex justify-center items-center h-[15%] gap-1 mb-2">
+                <img className="h-[70%]" src="/openinnew.svg" alt="" />
+                <p className="font-bold text-[1.5rem] text-[#134a91]">Rohkem infot</p>
               </div>
             </div>
           </div>
