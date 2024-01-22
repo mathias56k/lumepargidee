@@ -34,32 +34,24 @@ const AppTest = () => {
     <div>
       {Object.keys(placesData).map((key) => {
         const snowpark = placesData[key];
-        const todayOpeningHours = snowpark[Object.keys(snowpark)[currentDay]];
+        const todayOpeningHours = snowpark[Object.keys(snowpark)[currentDay +1]];
         const currentTime = time.toLocaleTimeString([], {
           hour: "2-digit",
           minute: "2-digit",
         });
 
         const openTime =
-          todayOpeningHours.open !== "null"
-            ? todayOpeningHours.open.split(":")
-            : null;
-        const closeTime =
-          todayOpeningHours.close !== "null"
-            ? todayOpeningHours.close.split(":")
-            : null;
+  todayOpeningHours.open !== null ? todayOpeningHours.open.split(":") : null;
+const closeTime =
+  todayOpeningHours.close !== null ? todayOpeningHours.close.split(":") : null;
 
-        const openingDate = openTime
-          ? new Date().setHours(Number(openTime[0]), Number(openTime[1]), 0, 0)
-          : null;
-        const closingDate = closeTime
-          ? new Date().setHours(
-              Number(closeTime[0]),
-              Number(closeTime[1]),
-              0,
-              0
-            )
-          : null;
+const openingDate = openTime
+  ? new Date().setHours(Number(openTime[0]), Number(openTime[1]), 0, 0)
+  : null;
+const closingDate = closeTime
+  ? new Date().setHours(Number(closeTime[0]), Number(closeTime[1]), 0, 0)
+  : null;
+
 
         const isOpenNow =
           openingDate &&
@@ -93,6 +85,7 @@ const AppTest = () => {
           >
             <div
               className="w-[90%] max-w-[30rem] h-[18rem] bg-[#98b9e5] rounded-xl flex flex-col"
+              key={key}
             >
               <div className="w-full bg-[#134a91] h-[25%] rounded-t-xl flex justify-center items-center">
                 <div className="w-full flex justify-center items-center gap-1">
